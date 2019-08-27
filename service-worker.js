@@ -26,8 +26,12 @@ self.addEventListener('message', (event) => {
  */
 self.__precacheManifest = [
   {
+    "url": "360wallpaper.jpg",
+    "revision": "c1eb4136fa4d4d19a1cb852034402642"
+  },
+  {
     "url": "404.html",
-    "revision": "b0571120ad44152fa90ddcc5155a87f1"
+    "revision": "195d0b2c668d1a54c4f9ec64d5452e13"
   },
   {
     "url": "assets/css/0.styles.a52e88ad.css",
@@ -94,56 +98,72 @@ self.__precacheManifest = [
     "revision": "96284db63eb49707ec4ea9e37f528775"
   },
   {
-    "url": "assets/js/app.d7bfdd45.js",
-    "revision": "3e0550255e068adbe1fe14d66075ee0a"
+    "url": "assets/js/app.497c64e8.js",
+    "revision": "6dabbda8f37702b7ef1e2a5eb11719da"
   },
   {
     "url": "assets/js/vendors~flowchart.dcec1649.js",
     "revision": "14e12908b09243e29b12ab0382e3f2e3"
   },
   {
+    "url": "bg.jpg",
+    "revision": "2d8db40eaf6578c1db70b10544658c96"
+  },
+  {
     "url": "category/Flutter.html",
-    "revision": "7ac2780f600b22c8962cf22d981b9549"
+    "revision": "a27300f6a99e45b24864b1246b27e12f"
   },
   {
     "url": "category/index.html",
-    "revision": "2225369a97cf0c137d10642b4dfbec5d"
+    "revision": "7a89980927ae3696b14dd17457b0022b"
+  },
+  {
+    "url": "icons/android-chrome-192x192.png",
+    "revision": "89efddd25bee8d6c8509d38f15c61d90"
+  },
+  {
+    "url": "icons/android-chrome-512x512.png",
+    "revision": "89efddd25bee8d6c8509d38f15c61d90"
   },
   {
     "url": "index.html",
-    "revision": "1e2bc5c14931c3f55891d5fe9744d4fb"
+    "revision": "b6095d28aa560a59b45a10047165b6c8"
   },
   {
     "url": "live/index.html",
-    "revision": "e5ba72604ee494997cbf150abe64a640"
+    "revision": "fe1204b09026ae3c2b2d70e1727fe2f1"
   },
   {
     "url": "tag/Flutter.html",
-    "revision": "07ab90a65c88413eb49f0d4035a09228"
+    "revision": "c74dd9db15a29c04403f34f2a9c0ed20"
   },
   {
     "url": "tag/index.html",
-    "revision": "6a172ee40b8912d78a097a1e56993f92"
+    "revision": "6918d6dc8743529066cd02b0c44a5dba"
   },
   {
     "url": "tag/Vue.html",
-    "revision": "daa9de8fc89598a59efe739259f1ea53"
+    "revision": "3bf84f82577954960275091c13bbbee6"
   },
   {
     "url": "timeLine/index.html",
-    "revision": "c9c152ea670d3d10af353f37176014c3"
+    "revision": "569311e2f81d02f6ff0c51edf928c579"
   },
   {
     "url": "views/flutter/01.html",
-    "revision": "d3172f2ab670711997ad818a40155469"
+    "revision": "75b0788322c8c9a8160d776c956d7a34"
   },
   {
     "url": "views/flutter/02.html",
-    "revision": "a67610adbaff200b1c4e9588168af25a"
+    "revision": "cacaa3cf8e00c2f76af967790d38b0bc"
   },
   {
     "url": "views/other/guide.html",
-    "revision": "0cbd9dbbe4ee90d026979968b41e61d0"
+    "revision": "e430add80ab297c735100bca13aad8dd"
+  },
+  {
+    "url": "yudr.jpg",
+    "revision": "5d765eff057438ae1057962ca49b1f09"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
