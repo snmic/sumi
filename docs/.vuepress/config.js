@@ -2,7 +2,7 @@ module.exports = {
   base: '/sumi/', // 部署到GitHub相关得配置
   title: "与道耳",
   description: '富强 民主 文明 和谐 自由 平等 公正 法治 爱国 敬业 诚信 友善',
-  dest: 'public',
+  // dest: 'public',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ["link", { rel: "manifest", href: "/manifest.json" }],
