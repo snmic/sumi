@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Flutter 第二季 | 与道耳</title>
+    <meta name="description" content="富强 民主 文明 和谐 自由 平等 公正 法治 爱国 敬业 诚信 友善">
+    <link rel="icon" href="/sumi/favicon.ico">
+  <link rel="manifest" href="/sumi/manifest.json">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/sumi/assets/css/0.styles.a52e88ad.css" as="style"><link rel="preload" href="/sumi/assets/js/app.d7bfdd45.js" as="script"><link rel="preload" href="/sumi/assets/js/4.2e978903.js" as="script"><link rel="preload" href="/sumi/assets/js/1.af648086.js" as="script"><link rel="preload" href="/sumi/assets/js/13.c85c4e68.js" as="script"><link rel="prefetch" href="/sumi/assets/js/10.c4b0b8b3.js"><link rel="prefetch" href="/sumi/assets/js/11.3e55b7eb.js"><link rel="prefetch" href="/sumi/assets/js/12.87d77630.js"><link rel="prefetch" href="/sumi/assets/js/14.4d0b8590.js"><link rel="prefetch" href="/sumi/assets/js/15.61bc5614.js"><link rel="prefetch" href="/sumi/assets/js/5.739fb1b5.js"><link rel="prefetch" href="/sumi/assets/js/6.31e6e084.js"><link rel="prefetch" href="/sumi/assets/js/7.e86f40ff.js"><link rel="prefetch" href="/sumi/assets/js/8.b80d7f4b.js"><link rel="prefetch" href="/sumi/assets/js/9.36885985.js"><link rel="prefetch" href="/sumi/assets/js/vendors~flowchart.dcec1649.js">
+    <link rel="stylesheet" href="/sumi/assets/css/0.styles.a52e88ad.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div><div class="theme-container"><div><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/sumi/" class="home-link router-link-active"><img src="/sumi/yudr.jpg" alt="与道耳" class="logo"> <span class="site-name">与道耳</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="theme-options"><!----> <div class="dark-theme-options toggle-option"><label for="dark-theme-toggle">Enable Dark Theme?</label> <input id="dark-theme-toggle" type="checkbox" checked="checked"></div></div></div></div> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/sumi/" class="nav-link"><i class="iconfont reco-home"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/sumi/category/Flutter.html" class="nav-link"><i class="iconfont undefined"></i>
+  Flutter
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      生活
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/sumi/live/" class="nav-link"><i class="iconfont undefined"></i>
+  live
+</a></li></ul></div></div><div class="nav-item"><a href="/sumi/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/sumi/timeLine/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      外联
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://www.npmjs.com/~reco_luan" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-npm"></i>
+  NPM
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://github.com/recoluan" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://www.jianshu.com/u/cd674a19515e" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-jianshu"></i>
+  简书
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://blog.csdn.net/recoluan" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-csdn"></i>
+  CSDN
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://www.cnblogs.com/luanhewei/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-bokeyuan"></i>
+  博客圆
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://mp.weixin.qq.com/s/mXFqeUTegdvPliXknAAG_A" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-wechat"></i>
+  WeChat
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/sumi/" class="nav-link"><i class="iconfont reco-home"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/sumi/category/Flutter.html" class="nav-link"><i class="iconfont undefined"></i>
+  Flutter
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      生活
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/sumi/live/" class="nav-link"><i class="iconfont undefined"></i>
+  live
+</a></li></ul></div></div><div class="nav-item"><a href="/sumi/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/sumi/timeLine/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      外联
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://www.npmjs.com/~reco_luan" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-npm"></i>
+  NPM
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://github.com/recoluan" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://www.jianshu.com/u/cd674a19515e" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-jianshu"></i>
+  简书
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://blog.csdn.net/recoluan" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-csdn"></i>
+  CSDN
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://www.cnblogs.com/luanhewei/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-bokeyuan"></i>
+  博客圆
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://mp.weixin.qq.com/s/mXFqeUTegdvPliXknAAG_A" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-wechat"></i>
+  WeChat
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Flutter 第二季</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/sumi/views/flutter/02.html#课程1、hello-world-小实例" class="sidebar-link">课程1、Hello World 小实例</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#_1、把main-dart-里代码删除了吧" class="sidebar-link">1、把main.dart 里代码删除了吧</a></li><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#_2、自己的main-dart" class="sidebar-link">2、自己的main.dart</a></li><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#_3、打开命令-flutter-run-或者执行vs-code-的debug，也可以查看，热更新。" class="sidebar-link">3、打开命令 flutter run 或者执行vs Code 的debug，也可以查看，热更新。</a></li><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#statefulwidget和statelesswidget" class="sidebar-link">StatefulWidget和StatelessWidget</a></li></ul></li><li><a href="/sumi/views/flutter/02.html#课程2、简单的text-widget-组件" class="sidebar-link">课程2、简单的Text Widget 组件</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#textalign属性" class="sidebar-link">TextAlign属性</a></li><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#maxlines属性" class="sidebar-link">maxLines属性</a></li><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#overflow属性" class="sidebar-link">overflow属性</a></li><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#style属性" class="sidebar-link">style属性</a></li><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#代码" class="sidebar-link">代码----</a></li></ul></li><li><a href="/sumi/views/flutter/02.html#课程3、container容器组件的使用" class="sidebar-link">课程3、Container容器组件的使用</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#alignment-属性" class="sidebar-link">alignment 属性</a></li><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#设置宽、高和颜色属性" class="sidebar-link">设置宽、高和颜色属性</a></li><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#padding属性" class="sidebar-link">padding属性</a></li><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#decoration属性" class="sidebar-link">decoration属性</a></li></ul></li><li><a href="/sumi/views/flutter/02.html#课程4、image图片组件的使用" class="sidebar-link">课程4、Image图片组件的使用</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#加入图片的几种方式" class="sidebar-link">加入图片的几种方式</a></li><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#看下效果" class="sidebar-link">看下效果</a></li><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#fit属性的设置" class="sidebar-link">fit属性的设置</a></li><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#图片的混合模式" class="sidebar-link">图片的混合模式</a></li><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#repeat图片重复" class="sidebar-link">repeat图片重复</a></li></ul></li><li><a href="/sumi/views/flutter/02.html#课程5、listview组件使用" class="sidebar-link">课程5、ListView组件使用</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#横向显示" class="sidebar-link">横向显示</a></li><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#纵向显示" class="sidebar-link">纵向显示</a></li><li class="sidebar-sub-header"><a href="/sumi/views/flutter/02.html#scrolldirection属性" class="sidebar-link">scrollDirection属性</a></li></ul></li><li><a href="/sumi/views/flutter/02.html#课程6、动态列表得使用" class="sidebar-link">课程6、动态列表得使用</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <div><main class="page reco-hide"> <div class="page-title"><h1>Flutter 第二季</h1> <hr> <div data-v-8f042278><i class="iconfont reco-account" data-v-8f042278><span data-v-8f042278>Yudr Sumi</span></i> <i class="iconfont reco-date" data-v-8f042278><span data-v-8f042278>2019-8-22</span></i> <!----> <i class="iconfont reco-tag tags" data-v-8f042278><span class="tag-item" data-v-8f042278>
+      Flutter
+    </span></i></div></div> <div class="content__default"><p>好吧，接下来就是努力学习的内容了，相对来说跟前端差别还是很大的需要适应</p> <h2 id="课程1、hello-world-小实例"><a href="#课程1、hello-world-小实例" aria-hidden="true" class="header-anchor">#</a> 课程1、Hello World 小实例</h2> <p>地址
+<a href="https://jspang.com/posts/2019/01/20/flutter-base.html#%E7%AC%AC06%E8%8A%82%EF%BC%9A%E5%86%99%E4%B8%80%E4%B8%AAhelloworld%E7%A8%8B%E5%BA%8F" target="_blank" rel="noopener noreferrer">https://jspang.com/posts/2019/01/20/flutter-base.html#第06节：写一个helloworld程序<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>
+我们创建好项目</p> <h3 id="_1、把main-dart-里代码删除了吧"><a href="#_1、把main-dart-里代码删除了吧" aria-hidden="true" class="header-anchor">#</a> 1、把main.dart 里代码删除了吧</h3> <p>清楚main.dart ,我们重写写</p> <h3 id="_2、自己的main-dart"><a href="#_2、自己的main-dart" aria-hidden="true" class="header-anchor">#</a> 2、自己的main.dart</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">import</span> <span class="token string">'package:flutter/material.dart'</span><span class="token punctuation">;</span> // 引入组件包
+
+void <span class="token function-name function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> // 主函数
+	runApp<span class="token punctuation">(</span>MyApp<span class="token punctuation">(</span><span class="token punctuation">))</span><span class="token punctuation">;</span> // 执行类方法
+<span class="token punctuation">}</span>
+
+// 声明MyApp 类
+class MyApp extends StatelessWidget <span class="token punctuation">{</span>
+	@override // 重写build方法
+	Widget build<span class="token punctuation">(</span>BuildContext context<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		// 返回一个Material 风格的组件
+		<span class="token builtin class-name">return</span> MaterialApp<span class="token punctuation">(</span>
+			title: <span class="token string">'第一个页面组件'</span>,
+			home: Scaffold<span class="token punctuation">(</span>
+				// 创建一个Bar，并添加文本
+				appBar: AppBar<span class="token punctuation">(</span>
+					title: Text<span class="token punctuation">(</span><span class="token string">'Welcome to AppBar'</span><span class="token punctuation">)</span>,
+				<span class="token punctuation">)</span>,
+				//在主体的中间区域，添加一个hello world 的文本
+				body: Center<span class="token punctuation">(</span>
+					child: Text<span class="token punctuation">(</span><span class="token string">'Hello World---'</span><span class="token punctuation">)</span>,
+				<span class="token punctuation">)</span>,
+			<span class="token punctuation">)</span>,
+		<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>可以清楚的看到自己的内容，一步一步看，可能现在还相对有难道，</p> <h3 id="_3、打开命令-flutter-run-或者执行vs-code-的debug，也可以查看，热更新。"><a href="#_3、打开命令-flutter-run-或者执行vs-code-的debug，也可以查看，热更新。" aria-hidden="true" class="header-anchor">#</a> 3、打开命令 <code>flutter run</code> 或者执行vs Code 的debug，也可以查看，热更新。</h3> <p>Dart是面向对象的语言，即使是函数也是对象，并且属于Function类型的对象。这意味着函数可以分配给变量或作为参数传递给其他函数。当然你也可以像JavaScript一样，调用一个函数。</p> <p>比如我们写Hello World中的第2行，就是一个函数。</p> <div class="language-dart extra-class"><pre class="language-dart"><code><span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span><span class="token function">runApp</span><span class="token punctuation">(</span><span class="token function">MyApp</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>因为这个函数体里只有一行代码，所以可以直接使用=&gt;来省略{}，只有函数体里只有一行时，才可以使用，否则请使用大括号。
+（ps:学习Dart语法时你要记住一条，Dart里一切皆对象，包括数字和函数.......,没对象的程序员小哥哥可要抓紧学习了，程序中自有颜如玉的时代到了）</p> <h3 id="statefulwidget和statelesswidget"><a href="#statefulwidget和statelesswidget" aria-hidden="true" class="header-anchor">#</a> StatefulWidget和StatelessWidget</h3> <ul><li>StatefulWidget ： 具有可变状态的窗口部件，也就是你在使用应用的时候就可以随时变化，比如我们常见的进度条，随着进度不断变化。</li> <li>StatelessWidget：不可变状态窗口部件，也就是你在使用时不可以改变，比如固定的文字（写上后就在那里了，死也不会变了）。</li></ul> <p>这个HelloWorld代码就继承了不可变窗口部件<code>StatelessWidget</code>。</p> <ul><li>r 键：点击后热加载，也就算是重新加载吧。</li> <li>p 键：显示网格，这个可以很好的掌握布局情况，工作中很有用。</li> <li>o 键：切换android和ios的预览模式。</li> <li>q 键：退出调试预览模式。</li></ul> <h2 id="课程2、简单的text-widget-组件"><a href="#课程2、简单的text-widget-组件" aria-hidden="true" class="header-anchor">#</a> 课程2、简单的Text Widget 组件</h2> <p>说在前头：：：：这一季将集中火力，死磕Flutter的API，也就是组件（widget）的使用，我们尽量把常用的都讲到，这也算学习中最辛苦的一章，因为你要记忆的内容会很多。但是学完后，会很有成就感。</p> <div class="language-dart extra-class"><pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string">'package:flutter/material.dart'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">runApp</span><span class="token punctuation">(</span><span class="token function">MyApp</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">class</span> <span class="token class-name">MyApp</span> <span class="token keyword">extends</span> <span class="token class-name">StatelessWidget</span> <span class="token punctuation">{</span>
+	<span class="token metadata symbol">@override</span>
+	Widget <span class="token function">build</span><span class="token punctuation">(</span>BuildContext context<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">return</span> <span class="token function">MaterialApp</span><span class="token punctuation">(</span>
+			title<span class="token punctuation">:</span> <span class="token string">'一个测试组件'</span><span class="token punctuation">,</span>
+			home<span class="token punctuation">:</span> <span class="token function">Scaffold</span><span class="token punctuation">(</span>
+				appBar<span class="token punctuation">:</span> <span class="token function">AppBar</span><span class="token punctuation">(</span>
+					title<span class="token punctuation">:</span> <span class="token function">Text</span><span class="token punctuation">(</span><span class="token string">'工具头'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+				<span class="token punctuation">)</span><span class="token punctuation">,</span>
+				body<span class="token punctuation">:</span> <span class="token function">Center</span><span class="token punctuation">(</span>
+					child<span class="token punctuation">:</span> <span class="token function">Text</span><span class="token punctuation">(</span><span class="token string">'Hello World Sumi'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+				<span class="token punctuation">)</span><span class="token punctuation">,</span>
+			<span class="token punctuation">)</span><span class="token punctuation">,</span>
+		<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>看起来，你们应该可以看的懂，现在，我们来针对这个学习下，对应的Text的样式。</p> <h3 id="textalign属性"><a href="#textalign属性" aria-hidden="true" class="header-anchor">#</a> TextAlign属性</h3> <p>TextAlign属性就是文本的对齐方式，它的属性值有如下几个（详细请看视频中讲解）：</p> <ul><li>center: 文本以居中形式对齐,这个也算比较常用的了。</li> <li>left:左对齐，经常使用，让文本居左进行对齐，效果和start一样。</li> <li>right :右对齐，使用频率也不算高。</li> <li>start:以开始位置进行对齐，类似于左对齐。</li> <li>end: 以为本结尾处进行对齐，不常用。有点类似右对齐.</li></ul> <p>总结起来，也就算三个对齐方式，left(左对齐)、center（居中对齐）、right（右对齐）。我们来看一下具体代码：</p> <h3 id="maxlines属性"><a href="#maxlines属性" aria-hidden="true" class="header-anchor">#</a> maxLines属性</h3> <p>设置最多显示的行数，比如我们现在只显示1行，类似一个新闻列表的题目。代码如下：</p> <h3 id="overflow属性"><a href="#overflow属性" aria-hidden="true" class="header-anchor">#</a> overflow属性</h3> <p>overflow属性是用来设置文本溢出时，如何处理,它有下面几个常用的值供我们选择。</p> <ul><li>clip：直接切断，剩下的文字就没有了，感觉不太友好，体验性不好。</li> <li>ellipsis:在后边显示省略号，体验性较好，这个在工作中经常使用。</li> <li>fade: 溢出的部分会进行一个渐变消失的效果，当然是上线的渐变，不是左右的哦。</li></ul> <h3 id="style属性"><a href="#style属性" aria-hidden="true" class="header-anchor">#</a> style属性</h3> <p>style属性的内容比较多，具体的你可以查一下API，我这里带作一个效果，方便大家快速学会Style的用法。
+我们下面要作的效果为，字体大小为25.0,颜色为粉红色,并且有一个下划线。</p> <p>更详细的属性资料可以参看这个网址：https://docs.flutter.io/flutter/painting/TextStyle-class.html</p> <h3 id="代码"><a href="#代码" aria-hidden="true" class="header-anchor">#</a> 代码----</h3> <div class="language-dart extra-class"><pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string">'package:flutter/material.dart'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">runApp</span><span class="token punctuation">(</span><span class="token function">MyApp</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">class</span> <span class="token class-name">MyApp</span> <span class="token keyword">extends</span> <span class="token class-name">StatelessWidget</span> <span class="token punctuation">{</span>
+	<span class="token metadata symbol">@override</span>
+	Widget <span class="token function">build</span><span class="token punctuation">(</span>BuildContext context<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">return</span> <span class="token function">MaterialApp</span><span class="token punctuation">(</span>
+			title<span class="token punctuation">:</span> <span class="token string">'一个测试组件'</span><span class="token punctuation">,</span>
+			home<span class="token punctuation">:</span> <span class="token function">Scaffold</span><span class="token punctuation">(</span>
+				appBar<span class="token punctuation">:</span> <span class="token function">AppBar</span><span class="token punctuation">(</span>
+					title<span class="token punctuation">:</span> <span class="token function">Text</span><span class="token punctuation">(</span><span class="token string">'工具头'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+				<span class="token punctuation">)</span><span class="token punctuation">,</span>
+				body<span class="token punctuation">:</span> <span class="token function">Center</span><span class="token punctuation">(</span>
+					child<span class="token punctuation">:</span> <span class="token function">Text</span><span class="token punctuation">(</span>
+						<span class="token string">'Hello World Sumi 没有什么内容是我们无法知道的,只要你肯学习进步,说再多都是虚幻的,一切还是要自己去努力!'</span><span class="token punctuation">,</span>
+						textAlign<span class="token punctuation">:</span> TextAlign<span class="token punctuation">.</span>right<span class="token punctuation">,</span>
+						maxLines<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+						overflow<span class="token punctuation">:</span> TextOverflow<span class="token punctuation">.</span>ellipsis<span class="token punctuation">,</span>
+						style<span class="token punctuation">:</span> <span class="token function">TextStyle</span><span class="token punctuation">(</span>
+							fontSize<span class="token punctuation">:</span> <span class="token number">20.0</span><span class="token punctuation">,</span>
+							color<span class="token punctuation">:</span> Color<span class="token punctuation">.</span><span class="token function">fromARGB</span><span class="token punctuation">(</span><span class="token number">255</span><span class="token punctuation">,</span> <span class="token number">213</span><span class="token punctuation">,</span> <span class="token number">123</span><span class="token punctuation">,</span> <span class="token number">58</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+							decoration<span class="token punctuation">:</span> TextDecoration<span class="token punctuation">.</span>underline<span class="token punctuation">,</span>
+							decorationStyle<span class="token punctuation">:</span> TextDecorationStyle<span class="token punctuation">.</span>double<span class="token punctuation">,</span>
+						<span class="token punctuation">)</span><span class="token punctuation">,</span>
+					<span class="token punctuation">)</span><span class="token punctuation">,</span>
+				<span class="token punctuation">)</span><span class="token punctuation">,</span>
+			<span class="token punctuation">)</span><span class="token punctuation">,</span>
+		<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="课程3、container容器组件的使用"><a href="#课程3、container容器组件的使用" aria-hidden="true" class="header-anchor">#</a> 课程3、Container容器组件的使用</h2> <p>我们的body 实现可以放置容器，然后，child 一个Text，可以new 也可以不用，样式还是你自己写的，styel: TextStyle</p> <div class="language-dart extra-class"><pre class="language-dart"><code>body<span class="token punctuation">:</span> <span class="token function">Container</span><span class="token punctuation">(</span> <span class="token comment">// 类似于div</span>
+  child<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">Text</span><span class="token punctuation">(</span>
+    <span class="token string">'Hello World Sumi 没有什么内容是我们无法知道的,只要你肯学习进步,说再多都是虚幻的,一切还是要自己去努力!'</span><span class="token punctuation">,</span>
+    style<span class="token punctuation">:</span> <span class="token function">TextStyle</span><span class="token punctuation">(</span>
+      fontSize<span class="token punctuation">:</span> <span class="token number">40.0</span><span class="token punctuation">,</span> 
+    <span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token punctuation">)</span><span class="token punctuation">,</span>
+  alignment<span class="token punctuation">:</span> Alignment<span class="token punctuation">.</span>center<span class="token punctuation">,</span>
+<span class="token punctuation">)</span><span class="token punctuation">,</span>
+</code></pre></div><h3 id="alignment-属性"><a href="#alignment-属性" aria-hidden="true" class="header-anchor">#</a> alignment 属性</h3> <p>alignment: Alignment.center, 这个属性很多个
+<img src="https://cdn.nlark.com/yuque/0/2019/png/295588/1566289560892-ba1f7b38-4eca-49e8-95a1-76b2e566c17c.png#align=left&amp;display=inline&amp;height=238&amp;name=image.png&amp;originHeight=238&amp;originWidth=438&amp;size=18669&amp;status=done&amp;width=438" alt="image.png"></p> <ul><li><code>bottomCenter</code>:下部居中对齐。</li> <li><code>botomLeft</code>: 下部左对齐。</li> <li><code>bottomRight</code>：下部右对齐。</li> <li><code>center</code>：纵横双向居中对齐。</li> <li><code>centerLeft</code>：纵向居中横向居左对齐。</li> <li><code>centerRight</code>：纵向居中横向居右对齐。</li> <li><code>topLeft</code>：顶部左侧对齐。</li> <li><code>topCenter</code>：顶部居中对齐。</li> <li><code>topRight</code>： 顶部居左对齐。</li></ul> <h3 id="设置宽、高和颜色属性"><a href="#设置宽、高和颜色属性" aria-hidden="true" class="header-anchor">#</a> 设置宽、高和颜色属性</h3> <p>设置宽、高和颜色属性是相对容易的，只要在属性名称后面加入浮点型数字就可以了，比如要设置宽是500，高是400，颜色为亮蓝色。代码如下：</p> <div class="language-dart extra-class"><pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string">'package:flutter/material.dart'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">runApp</span><span class="token punctuation">(</span><span class="token function">MyApp</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">class</span> <span class="token class-name">MyApp</span> <span class="token keyword">extends</span> <span class="token class-name">StatelessWidget</span> <span class="token punctuation">{</span>
+	<span class="token metadata symbol">@override</span>
+	Widget <span class="token function">build</span><span class="token punctuation">(</span>BuildContext context<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">return</span> <span class="token function">MaterialApp</span><span class="token punctuation">(</span>
+			title<span class="token punctuation">:</span> <span class="token string">'一个Container组件'</span><span class="token punctuation">,</span>
+			home<span class="token punctuation">:</span> <span class="token function">Scaffold</span><span class="token punctuation">(</span>
+				body<span class="token punctuation">:</span> <span class="token function">Center</span><span class="token punctuation">(</span>
+					child<span class="token punctuation">:</span> <span class="token function">Container</span><span class="token punctuation">(</span> <span class="token comment">// 类似于div</span>
+						child<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">Text</span><span class="token punctuation">(</span>
+							<span class="token string">'Hello World Sumi !'</span><span class="token punctuation">,</span>
+							style<span class="token punctuation">:</span> <span class="token function">TextStyle</span><span class="token punctuation">(</span>
+								fontSize<span class="token punctuation">:</span> <span class="token number">40.0</span><span class="token punctuation">,</span> 
+							<span class="token punctuation">)</span><span class="token punctuation">,</span>
+						<span class="token punctuation">)</span><span class="token punctuation">,</span>
+						alignment<span class="token punctuation">:</span> Alignment<span class="token punctuation">.</span>center<span class="token punctuation">,</span>
+						width<span class="token punctuation">:</span> <span class="token number">500.0</span><span class="token punctuation">,</span>
+						height<span class="token punctuation">:</span> <span class="token number">400.0</span><span class="token punctuation">,</span>
+						color<span class="token punctuation">:</span> Colors<span class="token punctuation">.</span>lightBlue<span class="token punctuation">,</span>
+					<span class="token punctuation">)</span><span class="token punctuation">,</span>
+				<span class="token punctuation">)</span><span class="token punctuation">,</span>
+			<span class="token punctuation">)</span><span class="token punctuation">,</span>
+		<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</code></pre></div><h3 id="padding属性"><a href="#padding属性" aria-hidden="true" class="header-anchor">#</a> padding属性</h3> <p>padding的属性就是一个内边距，它和你使用的前端技术CSS里的<code>padding</code>表现形式一样，指的是Container边缘和child内容的距离。先来看一个内边距为10的例子。具体代码如下(我们还是接着上节课的代码来写)：</p> <h3 id="decoration属性"><a href="#decoration属性" aria-hidden="true" class="header-anchor">#</a> decoration属性</h3> <p><code>decoration</code>是 container 的修饰器，主要的功能是设置背景和边框。
+比如你需要给背景加入一个渐变，这时候需要使用BoxDecoration这个类，代码如下（需要注意的是如果你设置了decoration，就不要再设置color属性了，因为这样会冲突）。</p> <div class="language-dart extra-class"><pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string">'package:flutter/material.dart'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">runApp</span><span class="token punctuation">(</span><span class="token function">MyApp</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">class</span> <span class="token class-name">MyApp</span> <span class="token keyword">extends</span> <span class="token class-name">StatelessWidget</span> <span class="token punctuation">{</span>
+	<span class="token metadata symbol">@override</span>
+	Widget <span class="token function">build</span><span class="token punctuation">(</span>BuildContext context<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">return</span> <span class="token function">MaterialApp</span><span class="token punctuation">(</span>
+			title<span class="token punctuation">:</span> <span class="token string">'一个Container组件'</span><span class="token punctuation">,</span>
+			home<span class="token punctuation">:</span> <span class="token function">Scaffold</span><span class="token punctuation">(</span>
+				body<span class="token punctuation">:</span> <span class="token function">Center</span><span class="token punctuation">(</span>
+					child<span class="token punctuation">:</span> <span class="token function">Container</span><span class="token punctuation">(</span> <span class="token comment">// 类似于div</span>
+						child<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">Text</span><span class="token punctuation">(</span>
+							<span class="token string">'Hello World Sumi !'</span><span class="token punctuation">,</span>
+							style<span class="token punctuation">:</span> <span class="token function">TextStyle</span><span class="token punctuation">(</span>
+								fontSize<span class="token punctuation">:</span> <span class="token number">40.0</span><span class="token punctuation">,</span> 
+							<span class="token punctuation">)</span><span class="token punctuation">,</span>
+						<span class="token punctuation">)</span><span class="token punctuation">,</span>
+						alignment<span class="token punctuation">:</span> Alignment<span class="token punctuation">.</span>topLeft<span class="token punctuation">,</span>
+						width<span class="token punctuation">:</span> <span class="token number">500.0</span><span class="token punctuation">,</span>
+						height<span class="token punctuation">:</span> <span class="token number">400.0</span><span class="token punctuation">,</span>
+						<span class="token comment">// color: Colors.lightBlue,</span>
+						padding<span class="token punctuation">:</span> <span class="token keyword">const</span> EdgeInsets<span class="token punctuation">.</span><span class="token function">fromLTRB</span><span class="token punctuation">(</span><span class="token number">10.0</span><span class="token punctuation">,</span> <span class="token number">20.0</span><span class="token punctuation">,</span> <span class="token number">30.0</span><span class="token punctuation">,</span> <span class="token number">40.0</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token comment">// fromLTRB</span>
+						margin<span class="token punctuation">:</span> <span class="token keyword">const</span> EdgeInsets<span class="token punctuation">.</span><span class="token function">all</span><span class="token punctuation">(</span><span class="token number">5.0</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+						decoration<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">BoxDecoration</span><span class="token punctuation">(</span> <span class="token comment">// 建立一个box 装饰</span>
+							gradient<span class="token punctuation">:</span> <span class="token keyword">const</span> <span class="token function">LinearGradient</span><span class="token punctuation">(</span> <span class="token comment">// 线性渐变</span>
+								colors<span class="token punctuation">:</span> <span class="token punctuation">[</span>Colors<span class="token punctuation">.</span>lightBlue<span class="token punctuation">,</span> Colors<span class="token punctuation">.</span>greenAccent<span class="token punctuation">,</span> Colors<span class="token punctuation">.</span>purple<span class="token punctuation">]</span>
+							<span class="token punctuation">)</span><span class="token punctuation">,</span>
+							border<span class="token punctuation">:</span> Border<span class="token punctuation">.</span><span class="token function">all</span><span class="token punctuation">(</span>width<span class="token punctuation">:</span> <span class="token number">2.0</span><span class="token punctuation">,</span> color<span class="token punctuation">:</span> Colors<span class="token punctuation">.</span>red<span class="token punctuation">)</span><span class="token punctuation">,</span>
+						<span class="token punctuation">)</span>
+					<span class="token punctuation">)</span><span class="token punctuation">,</span>
+				<span class="token punctuation">)</span><span class="token punctuation">,</span>
+			<span class="token punctuation">)</span><span class="token punctuation">,</span>
+		<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</code></pre></div><h2 id="课程4、image图片组件的使用"><a href="#课程4、image图片组件的使用" aria-hidden="true" class="header-anchor">#</a> 课程4、Image图片组件的使用</h2> <p><a href="https://jspang.com/posts/2019/01/21/flutter-base2.html" target="_blank" rel="noopener noreferrer">https://jspang.com/posts/2019/01/21/flutter-base2.html<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>  课程连接</p> <h3 id="加入图片的几种方式"><a href="#加入图片的几种方式" aria-hidden="true" class="header-anchor">#</a> 加入图片的几种方式</h3> <ul><li><strong>Image.asset</strong>:加载资源图片，就是加载项目资源目录中的图片,加入图片后会增大打包的包体体积，用的是相对路径。</li> <li><strong>Image.network</strong>:网络资源图片，意思就是你需要加入一段http://xxxx.xxx的这样的网络路径地址。</li> <li><strong>Image.file</strong>:加载本地图片，就是加载本地文件中的图片，这个是一个绝对路径，跟包体无关。</li> <li><strong>Image.memory</strong>: 加载Uint8List资源图片,这个我目前用的不是很多，所以没什么发言权。</li></ul> <h3 id="看下效果"><a href="#看下效果" aria-hidden="true" class="header-anchor">#</a> 看下效果</h3> <div class="language-dart extra-class"><pre class="language-dart"><code><span class="token keyword">return</span> <span class="token function">MaterialApp</span><span class="token punctuation">(</span>
+			title<span class="token punctuation">:</span> <span class="token string">'一个Container组件'</span><span class="token punctuation">,</span>
+			home<span class="token punctuation">:</span> <span class="token function">Scaffold</span><span class="token punctuation">(</span>
+				body<span class="token punctuation">:</span> <span class="token function">Center</span><span class="token punctuation">(</span>
+					child<span class="token punctuation">:</span> <span class="token function">Container</span><span class="token punctuation">(</span> <span class="token comment">// 类似于div</span>
+						child<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">Image<span class="token punctuation">.</span>network</span><span class="token punctuation">(</span>
+							<span class="token string">'https://c-ssl.duitang.com/uploads/item/201207/31/20120731220147_5cYLu.jpeg'</span><span class="token punctuation">,</span>
+							scale<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+						<span class="token punctuation">)</span><span class="token punctuation">,</span>
+						width<span class="token punctuation">:</span> <span class="token number">300.0</span><span class="token punctuation">,</span>
+						height<span class="token punctuation">:</span> <span class="token number">200.0</span><span class="token punctuation">,</span>
+						color<span class="token punctuation">:</span> Colors<span class="token punctuation">.</span>lightBlue<span class="token punctuation">,</span>
+					<span class="token punctuation">)</span><span class="token punctuation">,</span>
+				<span class="token punctuation">)</span><span class="token punctuation">,</span>
+			<span class="token punctuation">)</span><span class="token punctuation">,</span>
+		<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p><img src="https://cdn.nlark.com/yuque/0/2019/png/295588/1566292512493-a1f9f295-aa4d-4a60-b217-a47204a0b173.png#align=left&amp;display=inline&amp;height=477&amp;name=image.png&amp;originHeight=1152&amp;originWidth=594&amp;size=236957&amp;status=done&amp;width=246" alt="image.png"></p> <h3 id="fit属性的设置"><a href="#fit属性的设置" aria-hidden="true" class="header-anchor">#</a> fit属性的设置</h3> <p>fit属性可以控制图片的拉伸和挤压，这些都是根据图片的父级容器来的，我们先来看看这些属性（建议此部分组好看视频理解）。</p> <ul><li><strong>BoxFit.fill</strong>:全图显示，图片会被拉伸，并充满父容器。</li> <li><strong>BoxFit.contain</strong>:全图显示，显示原比例，可能会有空隙。</li> <li><strong>BoxFit.cover</strong>：显示可能拉伸，可能裁切，充满（图片要充满整个容器，还不变形）。</li> <li><strong>BoxFit.fitWidth</strong>：宽度充满（横向充满），显示可能拉伸，可能裁切。</li> <li><strong>BoxFit.fitHeight</strong> ：高度充满（竖向充满）,显示可能拉伸，可能裁切。</li> <li><strong>BoxFit.scaleDown</strong>：效果和contain差不多，但是此属性不允许显示超过源图片大小，可小不可大。</li></ul> <p>这部分我会在视频中充分演示，每一个效果都会作对应的演示，建议收看视频进行理解</p> <h3 id="图片的混合模式"><a href="#图片的混合模式" aria-hidden="true" class="header-anchor">#</a> 图片的混合模式</h3> <p>图片混合模式（colorBlendMode）和color属性配合使用，能让图片改变颜色，里边的模式非常的多，产生的效果也是非常丰富的。在这里作几个简单的例子，让大家看一下效果，剩下的留给小伙伴自己探索。</p> <div class="language- extra-class"><pre class="language-text"><code>child:new Image.network(
+  'http://jspang.com/static/myimg/blogtouxiang.jpg',
+    color: Colors.greenAccent,
+    colorBlendMode: BlendMode.darken,
+),
+
+</code></pre></div><ul><li>color：是要混合的颜色，如果你只设置color是没有意义的。</li> <li>colorBlendMode:是混合模式，相当于我们如何混合。</li></ul> <h3 id="repeat图片重复"><a href="#repeat图片重复" aria-hidden="true" class="header-anchor">#</a> repeat图片重复</h3> <ul><li>ImageRepeat.repeat : 横向和纵向都进行重复，直到铺满整个画布。</li> <li>ImageRepeat.repeatX: 横向重复，纵向不重复。</li> <li>ImageRepeat.repeatY：纵向重复，横向不重复。</li></ul> <p>来个全部重复的代码。</p> <div class="language-dart extra-class"><pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string">'package:flutter/material.dart'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">runApp</span><span class="token punctuation">(</span><span class="token function">MyApp</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">MyApp</span> <span class="token keyword">extends</span> <span class="token class-name">StatelessWidget</span> <span class="token punctuation">{</span>
+  <span class="token metadata symbol">@override</span>
+  Widget <span class="token function">build</span><span class="token punctuation">(</span>BuildContext context<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token function">MaterialApp</span><span class="token punctuation">(</span>
+      title<span class="token punctuation">:</span> <span class="token string">'一个Container组件'</span><span class="token punctuation">,</span>
+      home<span class="token punctuation">:</span> <span class="token function">Scaffold</span><span class="token punctuation">(</span>
+        body<span class="token punctuation">:</span> <span class="token function">Center</span><span class="token punctuation">(</span>
+          child<span class="token punctuation">:</span> <span class="token function">Container</span><span class="token punctuation">(</span>
+            <span class="token comment">// 类似于div</span>
+            child<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">Image<span class="token punctuation">.</span>network</span><span class="token punctuation">(</span>
+              <span class="token string">'https://c-ssl.duitang.com/uploads/item/201207/31/20120731220147_5cYLu.jpeg'</span><span class="token punctuation">,</span>
+              <span class="token comment">// fit: BoxFit.fill, // fill 模式</span>
+              <span class="token comment">// color: Colors.greenAccent, // 要混合的颜色</span>
+              <span class="token comment">// colorBlendMode: BlendMode.darken, // 混合模式</span>
+              repeat<span class="token punctuation">:</span> ImageRepeat<span class="token punctuation">.</span>repeat<span class="token punctuation">,</span> <span class="token comment">// 图片重复</span>
+            <span class="token punctuation">)</span><span class="token punctuation">,</span>
+            width<span class="token punctuation">:</span> <span class="token number">300.0</span><span class="token punctuation">,</span>
+            height<span class="token punctuation">:</span> <span class="token number">200.0</span><span class="token punctuation">,</span>
+            color<span class="token punctuation">:</span> Colors<span class="token punctuation">.</span>redAccent<span class="token punctuation">,</span>
+          <span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+
+</code></pre></div><h2 id="课程5、listview组件使用"><a href="#课程5、listview组件使用" aria-hidden="true" class="header-anchor">#</a> 课程5、ListView组件使用</h2> <p>有图标得使用
+<img src="https://cdn.nlark.com/yuque/0/2019/png/295588/1566375587170-562d5ed8-b616-41fa-bff2-ba5c5eaae60b.png#align=left&amp;display=inline&amp;height=174&amp;name=image.png&amp;originHeight=174&amp;originWidth=510&amp;size=12673&amp;status=done&amp;width=510" alt="image.png">我们使用了ListView，然后在他的内部<code>children</code>中，使用了<code>widget</code>数组，因为是一个列表，所以它接受一个数组，然后有使用了listTite组件（列表瓦片），在组件中放置了图标和文字。</p> <div class="language-dart extra-class"><pre class="language-dart"><code><span class="token keyword">class</span> <span class="token class-name">MyApp</span> <span class="token keyword">extends</span> <span class="token class-name">StatelessWidget</span> <span class="token punctuation">{</span>
+  <span class="token metadata symbol">@override</span>
+  Widget <span class="token function">build</span><span class="token punctuation">(</span>BuildContext context<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token function">MaterialApp</span><span class="token punctuation">(</span>
+      title<span class="token punctuation">:</span> <span class="token string">'一个测试LisetView'</span><span class="token punctuation">,</span>
+      home<span class="token punctuation">:</span> <span class="token function">Scaffold</span><span class="token punctuation">(</span>
+          appBar<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">AppBar</span><span class="token punctuation">(</span>title<span class="token punctuation">:</span> <span class="token function">Text</span><span class="token punctuation">(</span><span class="token string">'工具头'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+          body<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">ListView</span><span class="token punctuation">(</span>
+            children<span class="token punctuation">:</span> <span class="token operator">&lt;</span>Widget<span class="token operator">&gt;</span><span class="token punctuation">[</span>
+              <span class="token keyword">new</span> <span class="token class-name">ListTile</span><span class="token punctuation">(</span>
+                leading<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">Icon</span><span class="token punctuation">(</span>Icons<span class="token punctuation">.</span>perm_camera_mic<span class="token punctuation">)</span><span class="token punctuation">,</span>
+                title<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">Text</span><span class="token punctuation">(</span><span class="token string">'perm_camera_mic'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+              <span class="token punctuation">)</span><span class="token punctuation">,</span>
+              <span class="token keyword">new</span> <span class="token class-name">ListTile</span><span class="token punctuation">(</span>
+                leading<span class="token punctuation">:</span> <span class="token function">Icon</span><span class="token punctuation">(</span>Icons<span class="token punctuation">.</span>perm_identity<span class="token punctuation">)</span><span class="token punctuation">,</span>
+                title<span class="token punctuation">:</span> <span class="token function">Text</span><span class="token punctuation">(</span><span class="token string">'perm_identity'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+              <span class="token punctuation">)</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+          <span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</code></pre></div><p>多个就多new 几个ListTile</p> <div class="language-dart extra-class"><pre class="language-dart"><code><span class="token keyword">class</span> <span class="token class-name">MyApp</span> <span class="token keyword">extends</span> <span class="token class-name">StatelessWidget</span> <span class="token punctuation">{</span>
+  <span class="token metadata symbol">@override</span>
+  Widget <span class="token function">build</span><span class="token punctuation">(</span>BuildContext context<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token function">MaterialApp</span><span class="token punctuation">(</span>
+      title<span class="token punctuation">:</span> <span class="token string">'一个测试LisetView'</span><span class="token punctuation">,</span>
+      home<span class="token punctuation">:</span> <span class="token function">Scaffold</span><span class="token punctuation">(</span>
+          appBar<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">AppBar</span><span class="token punctuation">(</span>title<span class="token punctuation">:</span> <span class="token function">Text</span><span class="token punctuation">(</span><span class="token string">'工具头'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+          body<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">ListView</span><span class="token punctuation">(</span>
+            children<span class="token punctuation">:</span> <span class="token operator">&lt;</span>Widget<span class="token operator">&gt;</span><span class="token punctuation">[</span>
+              <span class="token keyword">new</span> <span class="token class-name">ListTile</span><span class="token punctuation">(</span>
+                leading<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">Icon</span><span class="token punctuation">(</span>Icons<span class="token punctuation">.</span>perm_camera_mic<span class="token punctuation">)</span><span class="token punctuation">,</span>
+                title<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">Text</span><span class="token punctuation">(</span><span class="token string">'perm_camera_mic'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+              <span class="token punctuation">)</span><span class="token punctuation">,</span>
+              <span class="token keyword">new</span> <span class="token class-name">ListTile</span><span class="token punctuation">(</span>
+                leading<span class="token punctuation">:</span> <span class="token function">Icon</span><span class="token punctuation">(</span>Icons<span class="token punctuation">.</span>perm_identity<span class="token punctuation">)</span><span class="token punctuation">,</span>
+                title<span class="token punctuation">:</span> <span class="token function">Text</span><span class="token punctuation">(</span><span class="token string">'perm_identity'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+              <span class="token punctuation">)</span><span class="token punctuation">,</span>
+              <span class="token keyword">new</span> <span class="token class-name">Image<span class="token punctuation">.</span>network</span><span class="token punctuation">(</span><span class="token string">'https://c-ssl.duitang.com/uploads/item/201207/31/20120731220147_5cYLu.jpeg'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+              <span class="token keyword">new</span> <span class="token class-name">Image<span class="token punctuation">.</span>network</span><span class="token punctuation">(</span><span class="token string">'https://c-ssl.duitang.com/uploads/item/201207/31/20120731220147_5cYLu.jpeg'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+              <span class="token keyword">new</span> <span class="token class-name">Image<span class="token punctuation">.</span>network</span><span class="token punctuation">(</span><span class="token string">'http://jspang.com/static/upload/20181109/1bHNoNGpZjyriCNcvqdKo3s6.jpg'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+          <span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</code></pre></div><h3 id="横向显示"><a href="#横向显示" aria-hidden="true" class="header-anchor">#</a> 横向显示</h3> <p>这里可以看出来横向多了个 scrollDirection: Axis.horizontal,</p> <div class="language-dart extra-class"><pre class="language-dart"><code><span class="token keyword">class</span> <span class="token class-name">MyApp</span> <span class="token keyword">extends</span> <span class="token class-name">StatelessWidget</span> <span class="token punctuation">{</span>
+  <span class="token metadata symbol">@override</span>
+  Widget <span class="token function">build</span><span class="token punctuation">(</span>BuildContext context<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token function">MaterialApp</span><span class="token punctuation">(</span>
+      title<span class="token punctuation">:</span> <span class="token string">'一个测试LisetView'</span><span class="token punctuation">,</span>
+      home<span class="token punctuation">:</span> <span class="token function">Scaffold</span><span class="token punctuation">(</span>
+        appBar<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">AppBar</span><span class="token punctuation">(</span>title<span class="token punctuation">:</span> <span class="token function">Text</span><span class="token punctuation">(</span><span class="token string">'工具头'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        body<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">Center</span><span class="token punctuation">(</span>
+          child<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">Container</span><span class="token punctuation">(</span>
+            height<span class="token punctuation">:</span> <span class="token number">200.0</span><span class="token punctuation">,</span>
+            child<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">MyList</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+          <span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">class</span> <span class="token class-name">MyList</span> <span class="token keyword">extends</span> <span class="token class-name">StatelessWidget</span> <span class="token punctuation">{</span>
+  <span class="token metadata symbol">@override</span>
+  Widget <span class="token function">build</span><span class="token punctuation">(</span>BuildContext context<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span>  <span class="token function">ListView</span><span class="token punctuation">(</span>
+      scrollDirection<span class="token punctuation">:</span> Axis<span class="token punctuation">.</span>horizontal<span class="token punctuation">,</span>
+      children<span class="token punctuation">:</span> <span class="token operator">&lt;</span>Widget<span class="token operator">&gt;</span><span class="token punctuation">[</span>
+        <span class="token keyword">new</span> <span class="token class-name">Container</span><span class="token punctuation">(</span>
+          width<span class="token punctuation">:</span> <span class="token number">180.0</span><span class="token punctuation">,</span>
+          color<span class="token punctuation">:</span> Colors<span class="token punctuation">.</span>lightBlue<span class="token punctuation">,</span>
+        <span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token keyword">new</span> <span class="token class-name">Container</span><span class="token punctuation">(</span>
+          width<span class="token punctuation">:</span> <span class="token number">180.0</span><span class="token punctuation">,</span>
+          color<span class="token punctuation">:</span> Colors<span class="token punctuation">.</span>yellowAccent<span class="token punctuation">,</span>
+        <span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token keyword">new</span> <span class="token class-name">Container</span><span class="token punctuation">(</span>
+          width<span class="token punctuation">:</span> <span class="token number">180.0</span><span class="token punctuation">,</span>
+          color<span class="token punctuation">:</span> Colors<span class="token punctuation">.</span>redAccent<span class="token punctuation">,</span>
+        <span class="token punctuation">)</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</code></pre></div><p>那么我们知道，<strong>万事皆组件Widget，所有都是类，直接拆分出来ListView</strong></p> <h3 id="纵向显示"><a href="#纵向显示" aria-hidden="true" class="header-anchor">#</a> 纵向显示</h3> <div class="language-dart extra-class"><pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string">'package:flutter/material.dart'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">runApp</span><span class="token punctuation">(</span><span class="token function">MyApp</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">class</span> <span class="token class-name">MyApp</span> <span class="token keyword">extends</span> <span class="token class-name">StatelessWidget</span> <span class="token punctuation">{</span>
+  <span class="token metadata symbol">@override</span>
+  Widget <span class="token function">build</span><span class="token punctuation">(</span>BuildContext context<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token function">MaterialApp</span><span class="token punctuation">(</span>
+      title<span class="token punctuation">:</span> <span class="token string">'一个测试LisetView'</span><span class="token punctuation">,</span>
+      home<span class="token punctuation">:</span> <span class="token function">Scaffold</span><span class="token punctuation">(</span>
+        appBar<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">AppBar</span><span class="token punctuation">(</span>title<span class="token punctuation">:</span> <span class="token function">Text</span><span class="token punctuation">(</span><span class="token string">'工具头'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        body<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">Center</span><span class="token punctuation">(</span>
+          child<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">Container</span><span class="token punctuation">(</span>
+            width<span class="token punctuation">:</span> <span class="token number">300.0</span><span class="token punctuation">,</span>
+            height<span class="token punctuation">:</span> <span class="token number">300.0</span><span class="token punctuation">,</span>
+            decoration<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">BoxDecoration</span><span class="token punctuation">(</span>
+              border<span class="token punctuation">:</span> Border<span class="token punctuation">.</span><span class="token function">all</span><span class="token punctuation">(</span>width<span class="token punctuation">:</span> <span class="token number">2.0</span><span class="token punctuation">,</span> color<span class="token punctuation">:</span> Colors<span class="token punctuation">.</span>red<span class="token punctuation">)</span><span class="token punctuation">,</span>
+            <span class="token punctuation">)</span><span class="token punctuation">,</span>
+            child<span class="token punctuation">:</span> <span class="token function">MyList</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+          <span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">class</span> <span class="token class-name">MyList</span> <span class="token keyword">extends</span> <span class="token class-name">StatelessWidget</span> <span class="token punctuation">{</span>
+  <span class="token metadata symbol">@override</span>
+  Widget <span class="token function">build</span><span class="token punctuation">(</span>BuildContext context<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span>  <span class="token function">ListView</span><span class="token punctuation">(</span>
+      <span class="token comment">// scrollDirection: Axis.vertical,</span>
+      children<span class="token punctuation">:</span> <span class="token operator">&lt;</span>Widget<span class="token operator">&gt;</span><span class="token punctuation">[</span>
+        <span class="token keyword">new</span> <span class="token class-name">Container</span><span class="token punctuation">(</span>
+          height<span class="token punctuation">:</span> <span class="token number">200.0</span><span class="token punctuation">,</span>
+          color<span class="token punctuation">:</span> Colors<span class="token punctuation">.</span>lightBlue<span class="token punctuation">,</span>
+        <span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token keyword">new</span> <span class="token class-name">Container</span><span class="token punctuation">(</span>
+          height<span class="token punctuation">:</span> <span class="token number">200.0</span><span class="token punctuation">,</span>
+          color<span class="token punctuation">:</span> Colors<span class="token punctuation">.</span>yellowAccent<span class="token punctuation">,</span>
+        <span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token keyword">new</span> <span class="token class-name">Container</span><span class="token punctuation">(</span>
+          height<span class="token punctuation">:</span> <span class="token number">200.0</span><span class="token punctuation">,</span>
+          color<span class="token punctuation">:</span> Colors<span class="token punctuation">.</span>redAccent<span class="token punctuation">,</span>
+        <span class="token punctuation">)</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</code></pre></div><h3 id="scrolldirection属性"><a href="#scrolldirection属性" aria-hidden="true" class="header-anchor">#</a> scrollDirection属性</h3> <p>ListView组件的<code>scrollDirection</code>属性只有两个值，一个是横向滚动，一个是纵向滚动。默认的就是垂直滚动，所以如果是垂直滚动，我们一般都不进行设置。</p> <ul><li>Axis.horizontal:横向滚动或者叫水平方向滚动。</li> <li>Axis.vertical:纵向滚动或者叫垂直方向滚动。</li></ul> <p>这节课就到这里了，主要就是学一下横向列表如何制作和如何减少嵌套。希望小伙伴们都能有所收获。下节课见了。</p> <h2 id="课程6、动态列表得使用"><a href="#课程6、动态列表得使用" aria-hidden="true" class="header-anchor">#</a> 课程6、动态列表得使用</h2> <p>这里看起来可能会比较不懂，没关系，多联系就看的懂了</p> <div class="language-dart extra-class"><pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string">'package:flutter/material.dart'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">runApp</span><span class="token punctuation">(</span><span class="token function">MyApp</span><span class="token punctuation">(</span>
+    items<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">List</span><span class="token operator">&lt;</span>String<span class="token operator">&gt;</span><span class="token punctuation">.</span><span class="token function">generate</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>i<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&quot;item $i&quot;</span><span class="token punctuation">)</span>
+  <span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">class</span> <span class="token class-name">MyApp</span> <span class="token keyword">extends</span> <span class="token class-name">StatelessWidget</span> <span class="token punctuation">{</span>
+  <span class="token keyword">final</span> List<span class="token operator">&lt;</span>String<span class="token operator">&gt;</span> items<span class="token punctuation">;</span> <span class="token comment">// 定义一个变量</span>
+  <span class="token function">MyApp</span><span class="token punctuation">(</span><span class="token punctuation">{</span>Key key<span class="token punctuation">,</span> <span class="token metadata symbol">@required</span> <span class="token keyword">this</span><span class="token punctuation">.</span>items<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">:</span><span class="token keyword">super</span><span class="token punctuation">(</span>key<span class="token punctuation">:</span>key<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 构造函数</span>
+  <span class="token metadata symbol">@override</span>
+  Widget <span class="token function">build</span><span class="token punctuation">(</span>BuildContext context<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token function">MaterialApp</span><span class="token punctuation">(</span>
+      title<span class="token punctuation">:</span> <span class="token string">'一个测试LisetView'</span><span class="token punctuation">,</span>
+      home<span class="token punctuation">:</span> <span class="token function">Scaffold</span><span class="token punctuation">(</span>
+        appBar<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">AppBar</span><span class="token punctuation">(</span>title<span class="token punctuation">:</span> <span class="token function">Text</span><span class="token punctuation">(</span><span class="token string">'工具头'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        body<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">ListView<span class="token punctuation">.</span>builder</span><span class="token punctuation">(</span>
+          itemCount<span class="token punctuation">:</span> items<span class="token punctuation">.</span>length<span class="token punctuation">,</span>
+          itemBuilder<span class="token punctuation">:</span> <span class="token punctuation">(</span>context<span class="token punctuation">,</span> index<span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">ListTile</span><span class="token punctuation">(</span>
+              title<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">Text</span><span class="token punctuation">(</span><span class="token string">'${items[index]}'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            <span class="token punctuation">)</span><span class="token punctuation">;</span>
+          <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">)</span>
+      <span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+
+
+</code></pre></div></div> <!----> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">最后更新: </span> <span class="time">8/27/2019, 10:03:07 AM</span></div></footer> <!----> </main> <div class="valine-wrapper" data-v-3d4d99c6><div id="valine" data-v-3d4d99c6></div></div></div> <div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;background-color:rgba(231, 234, 241,.5);display:none;" data-v-4fd99a39 data-v-4fd99a39><i class="iconfont reco-up" data-v-4fd99a39></i></div></div></div></div><div class="global-ui"><SWUpdatePopup></SWUpdatePopup></div></div>
+    <script src="/sumi/assets/js/app.d7bfdd45.js" defer></script><script src="/sumi/assets/js/4.2e978903.js" defer></script><script src="/sumi/assets/js/1.af648086.js" defer></script><script src="/sumi/assets/js/13.c85c4e68.js" defer></script>
+  </body>
+</html>
